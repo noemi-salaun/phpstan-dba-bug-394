@@ -1,0 +1,21 @@
+{
+    "name": "noemi/bug-repo",
+    "require": {
+        "php": ">=8.1",
+        "ext-mysqli": "*",
+        "phpstan/phpstan": "^1.9",
+        "staabm/phpstan-dba": "^0.2.51",
+        "doctrine/dbal": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Noemi\\BugRepo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Noemi Salaun",
+            "email": "noemi.salaun@gmail.com"
+        }
+    ]
+}

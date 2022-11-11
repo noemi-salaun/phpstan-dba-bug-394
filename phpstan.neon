@@ -1,0 +1,12 @@
+includes:
+    - vendor/staabm/phpstan-dba/config/dba.neon
+
+parameters:
+    level: max
+    tmpDir: cache/phpstan
+
+    bootstrapFiles:
+        - phpstan/phpstan-dba-bootstrap.php
+
+    paths:
+        - src
